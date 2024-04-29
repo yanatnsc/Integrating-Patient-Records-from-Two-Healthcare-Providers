@@ -1,9 +1,100 @@
-<mxfile host="app.diagrams.net" modified="2024-04-29T10:16:41.354Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.2.8" etag="DM2ykEWQEbsQVycjYiT0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-29T10:53:38.032Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="-H2sePb06n13-eykpaz6" version="24.2.8" type="github">
   <diagram name="Page-1" id="_YOOxgLDRbjV0LunN2a8">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="002EZEBalkQ2QeHrKSO9-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="002EZEBalkQ2QeHrKSO9-1" target="002EZEBalkQ2QeHrKSO9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="002EZEBalkQ2QeHrKSO9-1" value="Start with two linked list heads (h1/h2)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="002EZEBalkQ2QeHrKSO9-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="002EZEBalkQ2QeHrKSO9-2" target="002EZEBalkQ2QeHrKSO9-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="002EZEBalkQ2QeHrKSO9-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="002EZEBalkQ2QeHrKSO9-2" target="002EZEBalkQ2QeHrKSO9-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="002EZEBalkQ2QeHrKSO9-2" value="Is h1 empty?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="002EZEBalkQ2QeHrKSO9-3" value="return h2, end" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="002EZEBalkQ2QeHrKSO9-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="002EZEBalkQ2QeHrKSO9-4" target="002EZEBalkQ2QeHrKSO9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="002EZEBalkQ2QeHrKSO9-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="002EZEBalkQ2QeHrKSO9-4" target="002EZEBalkQ2QeHrKSO9-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="002EZEBalkQ2QeHrKSO9-4" value="Is h2 empty?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="002EZEBalkQ2QeHrKSO9-6" value="return h1, end" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="002EZEBalkQ2QeHrKSO9-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="002EZEBalkQ2QeHrKSO9-7" target="002EZEBalkQ2QeHrKSO9-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="002EZEBalkQ2QeHrKSO9-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="002EZEBalkQ2QeHrKSO9-7" target="002EZEBalkQ2QeHrKSO9-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="002EZEBalkQ2QeHrKSO9-7" value="h1 SSN &amp;lt; h2 SSN?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="160" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="002EZEBalkQ2QeHrKSO9-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="002EZEBalkQ2QeHrKSO9-8" target="002EZEBalkQ2QeHrKSO9-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="360" />
+              <mxPoint x="100" y="360" />
+              <mxPoint x="100" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="002EZEBalkQ2QeHrKSO9-8" value="Recursive to set h1.next to be the result of merging the remaining of h1, and h2; return h1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="280" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="002EZEBalkQ2QeHrKSO9-10" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="002EZEBalkQ2QeHrKSO9-12" value="Recursive to set h2.next to be the result of merging the remaining of h2, and h1; return h2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="170" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="002EZEBalkQ2QeHrKSO9-14" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="002EZEBalkQ2QeHrKSO9-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="002EZEBalkQ2QeHrKSO9-12" target="002EZEBalkQ2QeHrKSO9-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="240" as="sourcePoint" />
+            <mxPoint x="700" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="870" y="390" />
+              <mxPoint x="450" y="390" />
+              <mxPoint x="50" y="390" />
+              <mxPoint x="50" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="002EZEBalkQ2QeHrKSO9-24" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="002EZEBalkQ2QeHrKSO9-25" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="002EZEBalkQ2QeHrKSO9-26" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="002EZEBalkQ2QeHrKSO9-27" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="002EZEBalkQ2QeHrKSO9-28" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Clarifying Questions&lt;/font&gt;&lt;div style=&quot;font-size: 17px;&quot;&gt;I&#39;m using recursive here, is space complexity going to be a concern?&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-wrap: nowrap; background-color: initial;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bspan%20style%3D%26quot%3Bfont-size%3A%2017px%3B%26quot%3B%26gt%3BTime%20Complexity%3A%20O(n)%20as%20we%20traverse%20through%20the%20list%26lt%3B%2Fspan%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bfont-size%3A%2017px%3B%26quot%3B%26gt%3BSpace%20Complexity%3A%26amp%3Bnbsp%3B%20O(1)%20as%20I%20just%20need%20three%20pointers%20(prev%2Fcurrent%2Fnext)%26lt%3Bbr%26gt%3B%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Fdiv%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dleft%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2252%22%20y%3D%22680%22%20width%3D%22460%22%20height%3D%2285%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="440" width="460" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="002EZEBalkQ2QeHrKSO9-29" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;Time Complexity: O(m+n) as we traverse through the two lists&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;Space Complexity:&amp;nbsp; O(m+n) as each recursive call would increase the depth of the call stack&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="550" width="460" height="85" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
